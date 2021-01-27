@@ -47,7 +47,7 @@ a {
 }
 
 p {
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .hero {
@@ -57,6 +57,22 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* coloring and sizing for each article in "content" section */
+.content-blocks {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
 }
 
 .float-left {
@@ -69,62 +85,11 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-.search {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search img {
+.content img {
     max-height: 200px;
 }
 
-.online img {
-    max-height: 200px;
-}
-
-.social img {
-    max-height: 200px;
-}
-
-.search h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social h2 {
+.content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -140,17 +105,17 @@ p {
     background-color: #2589bd;
 }
 
-.benefit {
+.benefits-block {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit h3 {
-    margin-bottom: 10px;
+.benefits h3 {
+    margin-bottom: 32px;
     text-align: center;
 }
 
-.benefit img {
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
