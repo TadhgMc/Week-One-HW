@@ -8,6 +8,8 @@ body {
     background-color: #d9dcd6;
 }
 
+/* -do not commit this message- 
+do font-family attributes need to all be in quotes? */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,7 +26,7 @@ body {
     color: #d9dcd6;
 }
 
-.header section {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,7 +34,7 @@ body {
     font-size: 20px;
 }
 
-.header section ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
     list-style-type: none;
@@ -73,7 +75,6 @@ p {
     color: #ffffff;
 }
 
-/* float-left/right for positioning img*/
 .float-left {
     float: left;
     margin-right: 25px;
