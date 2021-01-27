@@ -32,13 +32,10 @@ body {
     font-size: 20px;
 }
 
-.header section ul {
-    list-style-type: none;
-}
-
 .header section ul li {
     display: inline-block;
     margin-left: 25px;
+    list-style-type: none;
 }
 
 a {
@@ -50,6 +47,7 @@ p {
     font-size: 20px;
 }
 
+/* refers to main photo on page */
 .hero {
     height: 800px;
     width: 100%;
@@ -75,6 +73,7 @@ p {
     color: #ffffff;
 }
 
+/* float-left/right for positioning img*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -94,6 +93,7 @@ p {
     font-size: 36px;
 }
 
+/* coloring and sizing for the aside section*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
